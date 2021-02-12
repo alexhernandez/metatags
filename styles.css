@@ -4,6 +4,7 @@
     --coral:coral;
     --cadetblue:cadetblue;
     --palevioletred:palevioletred;
+    --palegoldenrod: palegoldenrod;
 }
 
 html { box-sizing: border-box; }
@@ -59,6 +60,7 @@ li:first-child { border-top: 1px solid var(--black); }
 li:nth-child(1):hover { background-color: var(--coral); }
 li:nth-child(2):hover { background-color: var(--cadetblue); }
 li:nth-child(3):hover { background-color: var(--palevioletred); }
+li:nth-child(4):hover { background-color: var(--palegoldenrod); }
 
 a { 
     color: var(--black);
@@ -118,3 +120,4 @@ pre {
 .bg-1 { background-color: var(--coral); }
 .bg-2 { background-color: var(--cadetblue); }
 .bg-3 { background-color: var(--palevioletred); }
+.bg-4 { background-color: var(--palegoldenrod); }
